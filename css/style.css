@@ -578,6 +578,13 @@ h1.arrow span {
 	-o-background-size:cover;
 	background-size:cover;
 }
+.about-image1 {
+	height:200px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
 .color-bg {
 	background: #E04343;
 }
@@ -1110,16 +1117,53 @@ ul.slides li {
 }
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
-@media screen and (max-width:414px) {
+@media screen and (max-width:900px) {
 	.scrollto {
 		padding: 95px 0px 0px 0px;
 	}
 
 	.hero h1 {
-		font-size: 100px;
+		font-size: 80px;
 		line-height: 80px;
-		margin-top: 65px;
+		margin-top: 250px;
 }
+	
+}
+@media screen and (max-width:786px) {
+	.scrollto {
+		padding: 95px 0px 0px 0px;
+	}
+
+	.hero h1 {
+		font-size: 70px;
+		line-height: 80px;
+		margin-top: 350px;
+}
+	
+}
+@media screen and (max-width:500px) {
+	.scrollto {
+		padding: 95px 0px 0px 0px;
+	}
+
+	.hero h1 {
+		font-size: 60px;
+		line-height: 80px;
+		margin-top: 350px;
+}
+	
+}
+@media screen and (max-width:480px) {
+	.scrollto {
+		padding: 95px 0px 0px 0px;
+	}
+
+	.hero h1 {
+		font-size: 50px;
+		line-height: 80px;
+		margin-top: 350px;
+}
+	
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
